@@ -19,7 +19,7 @@ variable "vpc_cidr" {
 variable "instance_type" {
   description = "EKS worker node instance type"
   type        = string
-  default     = "t3.medium"
+  default     = "m7i-flex.large"
 }
 
 variable "desired_nodes" {
